@@ -145,3 +145,6 @@ body {
     background-color: transparent;
     background-clip: content-box;
 }
+.form_container .row .col_half.last {
+    border-left: 1px solid #ccc;
+}
