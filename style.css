@@ -140,3 +140,13 @@ border-radius: 10px;
       font-weight: bold;
       /* transition: 0.2s; */
   }
+.searchbar:focus {
+      width: 250px;
+      font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+      font-size: 1em;
+      font-weight: bold;
+      transition: 0.3s;
+      /* Stops the input box from inheriting the styling from the inputs on the request form */
+      border-bottom: white solid 2px;
+      outline: none;
+  }
