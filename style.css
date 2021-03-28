@@ -169,3 +169,20 @@ header{
       background-color: #ffF;
       
   }
+#nav ul{
+      position: relative;
+      list-style: none;
+  }
+  #nav li{
+      display: inline-block;
+  }
+  #nav a{
+      text-decoration: none;
+      padding: 12px 0;
+      margin-left: 50px;
+      color: #000;
+      letter-spacing: 1px;
+      font-family: 'Open sans', sans-serif;  
+      font-size: 18px;
+  
+  }
