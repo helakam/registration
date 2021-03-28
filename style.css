@@ -207,3 +207,9 @@ header{
   #nav li:hover > .dropdown, li:hover{
       display: block;
   }
+.footer {
+	width: 100%;
+	background: #00121b;
+	display: block;
+  font-family: 'Open sans', sans-serif;
+ }
