@@ -114,3 +114,34 @@ body {
     font-size: 1.1em;
     margin-bottom: 10px;
 }
+.form_wrapper input[type="submit"]:hover {
+    background: #e1a70a;
+}
+
+.form_wrapper input[type="submit"]:focus {
+    background: #e1a70a;
+}
+.form_wrapper input[type="checkbox"],
+.form_wrapper input[type="radio"] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.radio label:before {
+    content: "";
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 100%;
+    vertical-align: -3px;
+    border: 2px solid #ccc;
+    padding: 0.15em;
+    background-color: transparent;
+    background-clip: content-box;
+}
