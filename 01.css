@@ -148,3 +148,6 @@ body {
 .form_container .row .col_half.last {
     border-left: 1px solid #ccc;
 }
+.radio label {
+    margin-right: 1em;
+}
