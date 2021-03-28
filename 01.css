@@ -114,3 +114,10 @@ body {
     font-size: 1.1em;
     margin-bottom: 10px;
 }
+.form_wrapper input[type="submit"]:hover {
+    background: #e1a70a;
+}
+
+.form_wrapper input[type="submit"]:focus {
+    background: #e1a70a;
+}
