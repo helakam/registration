@@ -52,3 +52,13 @@ body {
     position: relative;
     margin-bottom: 20px;
 }
+.form_wrapper .input_field>span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #333;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    width: 30px;
+}
