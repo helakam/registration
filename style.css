@@ -133,3 +133,10 @@ border-radius: 10px;
       border-bottom: white solid 2px;
       transition: 0.3s;
   }
+.searchbar::placeholder {
+      color: #262626;
+      font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+      font-size: 1em;
+      font-weight: bold;
+      /* transition: 0.2s; */
+  }
