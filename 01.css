@@ -90,3 +90,15 @@ body {
     box-sizing: border-box;
     outline: none;
 }
+.form_wrapper input[type="text"]:hover,
+.form_wrapper input[type="email"]:hover,
+.form_wrapper input[type="password"]:hover {
+    background: #fafafa;
+}
+
+.form_wrapper input[type="text"]:focus,
+.form_wrapper input[type="email"]:focus,
+.form_wrapper input[type="password"]:focus {
+    border: 1px solid #f5ba1a;
+    background: #fafafa;
+}
