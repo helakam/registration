@@ -199,3 +199,11 @@ header{
       display: none;
       z-index: 30;
   }
+.dropdown li:hover{
+      background-color: #fff;
+      
+  }
+  
+  #nav li:hover > .dropdown, li:hover{
+      display: block;
+  }
