@@ -132,6 +132,12 @@ body {
     position: absolute;
     width: 1px;
 }
+.form_container .row .col_half.last {
+    border-left: 1px solid #ccc;
+}
+.radio label {
+    margin-right: 1em;
+}
 .radio label:before {
     content: "";
     display: inline-block;
@@ -145,9 +151,8 @@ body {
     background-color: transparent;
     background-clip: content-box;
 }
-.form_container .row .col_half.last {
-    border-left: 1px solid #ccc;
-}
-.radio label {
-    margin-right: 1em;
+
+.radio input:checked+label:before {
+    background-color: #000;
+    border-color: #000;
 }
