@@ -30,3 +30,25 @@ body {
     text-align: center;
     padding-bottom: 15px;
 }
+.form_wrapper label {
+    font-size: 12px;
+}
+
+.form_wrapper .row {
+    margin: 10px -15px;
+}
+
+.form_wrapper .row>div {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.form_wrapper .col_half {
+    width: 100%;
+    float: left;
+}
+
+.form_wrapper .input_field {
+    position: relative;
+    margin-bottom: 20px;
+}
