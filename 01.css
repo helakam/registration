@@ -82,3 +82,11 @@ body {
     box-sizing: border-box;
     outline: none;
 }
+.form_wrapper input[type="address"] {
+    width: 100%;
+    padding: 8px 10px 9px 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+}
