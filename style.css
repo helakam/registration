@@ -75,3 +75,11 @@ border-radius: 10px;
     margin-bottom: 27px;
     font-family: 'Ubuntu', sans-serif;
     }
+.remember {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #E67E22  ;
+        padding-top: 18px;
+        font-size: 23px;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
