@@ -121,3 +121,14 @@ body {
 .form_wrapper input[type="submit"]:focus {
     background: #e1a70a;
 }
+.form_wrapper input[type="checkbox"],
+.form_wrapper input[type="radio"] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
