@@ -109,3 +109,12 @@ border-radius: 10px;
       justify-content: space-between;
       padding: 25px;
   }
+.part{
+      flex-basis: 33.3%;
+      margin: auto;
+      text-align: center;
+  }
+ .headericon i{
+      padding-left: 30px;
+      font-size: 20px;
+  }
