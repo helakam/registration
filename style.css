@@ -47,3 +47,31 @@ height: 30px;
 width: 400px;
 border-radius: 10px;
 }
+.sign {
+        padding-top: 40px;
+        color: #261F55 ;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 45px;
+    }
+ .un {
+    width: 50%;
+    color: rgb(27, 30, 41);
+    font-weight: 1000;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 25%;
+        margin-right: 25%;
+
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    }
